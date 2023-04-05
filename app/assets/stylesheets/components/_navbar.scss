@@ -1,10 +1,10 @@
 .navbar {
   align-items: center;
-  background-color: #393E46;
+  background: rgb(0,0,0); background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(45,45,45,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .navbar a {
-  color: #F6F6E3;
+  color: #ffffff;
   font-size: 20px;
   font-family: "Sora", "Helvetica", "sans-serif";
   margin-top: 20px;
