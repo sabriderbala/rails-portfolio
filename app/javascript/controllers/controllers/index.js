@@ -4,5 +4,11 @@
 
 import { application } from "./application"
 
+import ApplicationController from "./application"
+application.register("application", ApplicationController)
+
+import NavbarController from "./navbar_controller"
+application.register("navbar", NavbarController)
+
 import TypedJsController from "./typed_js_controller"
 application.register("typed-js", TypedJsController)

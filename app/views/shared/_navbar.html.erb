@@ -1,6 +1,9 @@
-<div class="navbar d-flex justify-content-center">
+<div class="navbar d-flex justify-content-center" data-controller="navbar" data-action="scroll@window->navbar#updateNavbar">
     <%= link_to root_path, class: "nav-link active"  do %>
       <i class="fa-solid fa-house"></i>
+    <% end %>
+    <%= link_to project_path, class: "nav-link" do %>
+      <i class="fa-solid fa-laptop"></i>
     <% end %>
 
 </div>
